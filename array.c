@@ -5,7 +5,7 @@
 #include <math.h>
 
 #define TYPE float
-#define ABSBASE 100000
+#define ABSBASE 10000000
 
 int main() {
 	TYPE* a = (TYPE*)malloc(ABSBASE * sizeof(TYPE));
